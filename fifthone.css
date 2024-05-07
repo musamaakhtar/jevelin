@@ -1,0 +1,562 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* -----------nav-start--------------------------- */
+
+.nav{
+    height: 15vh;
+    width: 100%;  
+    position:sticky;
+    top:0%; 
+    background-color: white;
+    z-index: 100;
+}
+.nav>img{
+    margin: 4vh 0 0 4vh ;
+}
+.nav>ol>li{
+    float: left;
+    font-weight: bold;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 6%;
+    font-size: 18px;
+}
+.nav>ol{
+    margin: -4vh 0 0 50%;
+}
+.nav>ol>li:hover{
+    color:rgb(1, 214, 121) ;
+}
+.nav>button{
+    height: 8vh;
+    width:  8%;
+    background-color:rgb(1, 214, 121);
+    color: white;
+    border-radius: 11px;
+    margin: -2vh 0 0 5%;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+.nav>button:hover{
+    background-color:black;
+}
+/* -----------nav-end--------------------------- */
+/* -----------first-start--------------------------- */
+.first{
+ background-image: url(./images/pic1.jpg);
+ height: 90vh;
+ width: 100%;
+ background-size: 140% 170%;
+ position: relative;
+ background-attachment: fixed;
+}
+.first>h2{
+  position: absolute; 
+  top: 15%;
+  left: 5%; 
+  font-size: 42px;
+  color: rgba(0, 0, 0, 0.548);
+}
+.first>h1{
+    position: absolute; 
+    top: 25%;
+    left: 5%; 
+    font-size: 65px;
+    color: black;
+    width: 40%;
+  }
+  .first>button{
+    position: absolute; 
+    top: 96%;
+    color: white;
+    left: 5%; 
+    height: 8vh;
+    width: 13% ;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(1, 214, 121);
+    }
+  
+.first>img{
+    height: 125%;
+    width: 45%;
+    position: absolute;
+    left: 52%;
+   top: 10%;
+}
+/* -----------first-end--------------------------- */
+/*_________2nd-sec start____________ */
+.second{
+    height: 35vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    margin-top: 30vh;
+}
+.second>h1{
+    position: absolute;
+    left: 45%;
+    color: rgba(0, 0, 0, 0.377);
+}
+.second>h2{
+    position: absolute;
+    left: 37%;
+    top: 25%;
+    font-size: 35px;
+    width: 30%;
+}
+.second>p{
+    height: 5vh;
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    left: 9%;
+    top: 70%;
+    color: rgba(0, 0, 0, 0.459);
+    font-size: 18px;
+}
+ /* _________2nd-sec end____________  */
+ /* <!-- _________3rd-sec start____________ --> */
+  .third{
+      height: 80vh;
+      width: 100%;
+      position: relative;
+      background-image: url(./images/pic3.jpg);
+      background-size: 100% 100%;
+      background-attachment: fixed;
+}
+.third-one{
+    position: absolute;
+    height:80%;
+    width: 24%;
+    text-align: center;
+    background-color: white;
+    border-radius: 35px;
+    top: 10%;
+    left: 7%;
+
+} 
+ .third-one>img{
+      border-radius: 100px;
+      margin-top: 6vh;
+      height: 25%;
+      width: 25%;
+  }
+  .third-one>h1{
+    font-size: 25px;
+    margin-top: 2vh;
+  }
+  .third-one>p{
+      width: 95%;
+      margin-top: 4vh;
+      color: rgba(0, 0, 0, 0.527);
+     }
+     .star{
+         width: 20px;
+         height: 20px;
+         float: left;
+         margin-top: 3vh;
+         /* margin: 2.5vh 0 0 5vh; */
+         background-color: orange;
+         clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+     }
+     .star-one{
+         margin-left: 15vh;
+     }
+     .logo{
+         height: 100px;
+         width: 100px;
+         background-color: white;
+         clip-path: circle(50% at 50% 50%);
+         position: relative;
+         left: 55%;
+         top: 45%;
+     }
+     .play{
+        height: 70px;
+        width: 70px;
+        clip-path: polygon(0 0, 0% 100%, 78% 51%);
+        background-color: black;
+        position: absolute;
+        margin: 13% 30%;
+     }
+     .logo:hover{
+        background-color: rgba(24, 148, 24, 0.671);
+
+     }
+
+ /* <!-- _________3rd-sec end____________ --> */
+ /* <!-- _________4rth-sec start____________ --> */
+ .forth{
+     width: 75%;
+     height: 100vh;
+     position: relative;
+     margin-top: 6vh;
+     background-image: url(./images/pic\ 5\ back.jpg);
+     background-size: 70% 95%;
+     background-repeat: no-repeat
+
+ }
+ .forth>img{
+     position: absolute;
+     height: 110vh;
+     width: 43%;
+     left: 13%;
+     top: 3%;
+ }
+ .forth>h3{
+     position: absolute;
+     font-size: 35px;
+     top: 5%;
+     left: 66%;
+     color: rgba(0, 0, 0, 0.541);
+ }
+ .forth>h1{
+    position: absolute;
+    font-size: 50px;
+    width: 45%;
+    top: 13%;
+    left: 66%;
+    color:black;
+}
+ .forth>p{
+    position: absolute;
+    font-size: 25px;
+    top: 40%;
+    left: 66%;
+    color:rgba(0, 0, 0, 0.678);
+    width: 50% ;
+ }
+
+ /* <!-- _________4rth-sec end____________ --> */
+ /* <!-- _________5th-sec start____________ --> */
+ .fifth{
+     height: 80vh;
+     width: 100%;
+     position: relative;
+     margin-top: 25vh;
+     background-image: url(./images/pic77-removebg-preview.png);
+     background-size: 100% 100%;
+ }
+ .fifth>h2{
+     color: rgba(0, 0, 0, 0.568);
+     position: absolute;
+     left: 8vw;
+     font-size: 38px;
+ }
+ .fifth>h1{
+     font-size: 55px;
+     width: 30%;
+     position: absolute;
+     left: 8vw;
+     top: 10vh;
+ }
+ .fifth-three>img{
+     position: absolute;
+     left: 60%;
+     top: -15vh;
+ }
+ .one{
+     height: 50px;
+     border-radius: 10px;
+     width: 50px;
+     background-color: aquamarine;
+ }
+ .two{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: orange;
+ }
+ .fifth-one{
+     position: absolute;
+     top: 41vh;
+     left: 8vw;
+     width: 20%;
+ }    
+ .fifth-two{
+     position: absolute;
+     top: 55vh;
+     width: 20%;
+     left: 8vw;
+ }
+ .fifth-one>h3{
+     width: 80%;
+     margin: -50px 0 0 70px;
+ }
+ .fifth-two>h3{
+    width: 80%;
+    margin: -50px 0 0 70px;
+ }
+    
+    /* <!-- _________5th-sec end____________ --> */
+    /* <!-- _________6th-sec start____________ --> */
+    .sixth{
+        width: 75%;
+        height: 100vh;
+        position: relative;
+        margin-top: 6vh;
+        background-image: url(./images/pic\ 5\ back.jpg);
+        background-size: 63% 70%;
+        background-repeat: no-repeat;
+   
+    }
+    .sixth>img{
+        position: absolute;
+        height: 90vh;
+        width: 43%;
+        left: 13%;
+        top: 3%;
+    }
+    .sixth>h3{
+        position: absolute;
+        font-size: 35px;
+        top: 15%;
+        left: 67%;
+        color: rgba(0, 0, 0, 0.541);
+    }
+    .sixth>h1{
+       position: absolute;
+       font-size: 46px;
+       width: 55%;
+       top: 26%;
+       left: 67%;
+       color:black;
+   }
+    .sixth>p{
+       position: absolute;
+       font-size: 20px;
+       top: 65%;
+       left: 67%;
+       color:rgba(0, 0, 0, 0.678);
+       width: 50% ;
+    }
+       /* <!-- _________6th-sec end____________ --> */
+       /* <!-- _________7th-sec start____________ --> */
+     .seventh{
+         position: relative;
+         background-image: url(./images/pic8.jpg);
+          height: 120vh;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          width: 100%;
+          background-size: 100% 100%;
+        }
+        .seventh>h2{
+            position: absolute;
+            color: white;
+            left: 5vh;
+            top: 35%;
+            font-size: 28px;
+        }
+        .seventh>h1{
+            position: absolute;
+            color: white;
+            left: 5vh;
+            top: 42% ;
+            font-size: 55px;
+            width : 28%;
+        }
+        .seventh-one{
+            height:85vh;
+            width: 27vw;
+            background-color: white;
+            border-radius: 25px;
+            position: absolute;
+            left: 35%;
+            top: 20%;
+            text-align: center;
+        }
+        .seventh-one>h5{
+            margin-top: 7vh;
+            font-size: 18px;
+        }
+        .seventh-one>button{
+            width: 95%;
+            height: 12%;
+            margin-top: 2vh;
+            border-radius: 15px;
+            color: rgba(17, 156, 17, 0.575);
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .seventh-one>button:hover{
+            color: rgba(33, 172, 33, 0.603);
+            background-color: black;
+
+        }
+        .seventh-one>h8{
+            color: rgba(0, 0, 0, 0.459);
+
+        }
+
+        .seventh-one>h6{
+            margin-top: 1vh;
+            font-size: 60px;
+            font-weight: bold;
+        }
+        .seventh-one>h3{
+            margin-top: 3vh;
+            color: rgba(0, 0, 0, 0.637);
+        }
+
+
+         .seventh-two{
+            height:85vh;
+            width: 27vw;
+            background-color: white;
+            border-radius: 25px;
+            position: absolute;
+            left: 65%;
+            top: 20%;
+            text-align: center;
+
+
+        }
+        .seventh-two>h5{
+            margin-top: 7vh;
+            font-size: 18px;
+        }
+        .seventh-two>h7{
+            margin-top: 1vh;
+            font-size: 60px;
+            font-weight: bold;
+            color: rgba(12, 172, 12, 0.705);
+        }
+        .seventh-two>button{
+            width: 95%;
+            height: 12%;
+            margin-top: 2vh;
+            border-radius: 15px;
+            background-color: black;
+            color: white;
+            font-size: 15px;
+        }
+        .seventh-two>button:hover{
+           background-color: rgba(12, 172, 12, 0.705);
+            
+        }
+        .seventh-two>h6{
+            color: rgba(0, 0, 0, 0.459);
+            font-size: 16px;
+        }
+        .seventh-two>h3{
+            margin-top: 3vh;
+            color: rgba(0, 0, 0, 0.637);
+        }
+
+       /* <!-- _________7th-sec end____________ --> */
+       /* <!-- _________8th-sec start____________ --> */
+     .eighth{
+     height:80vh;
+     width: 100%;
+     position: relative;
+     background-color: rgb(1, 214, 121);
+     padding-bottom: 15%;
+     }
+     .eighth>h3{
+         color: white;
+         position: absolute;
+         top: 14%;
+         left: 42%;
+         font-size: 40px;
+         font-weight: normal;
+     }
+    .eighth>h1{
+        text-align: center;
+        position: absolute;
+        color: white;
+        top: 29%;
+        left: 22%;
+        font-size: 75px;
+        width: 55%;
+      text-align: center;
+    }
+
+    .eighth>button{
+        height: 14vh;
+        width: 33%;
+        position: absolute;
+        border: 3px solid white;
+        left: 32%;
+        top: 65%;
+        background-color:rgb(1, 214, 121) ;
+        border-radius: 35px;
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    }
+    .eighth>button:hover{
+        background-color: black;
+        color: white;
+    }
+       /* <!-- _________8th-sec end____________ --> */
+       /* <!-- _________9th-sec start____________ --> */
+     .ninth-main{
+         height: 40vh !important;
+         /* padding-bottom: 15vh !important; */
+         width: 100%;
+         background-color: white;
+         position: relative;
+         padding-bottom: 15vh;
+     }
+     .ninth-one>img{
+     margin-top: 12vh;
+     margin-left: 8vh;
+    }
+     .ninth-one>p{
+      margin-top: 1vh;
+      margin-left: 8vh;
+     }
+     .ninth-two{
+         margin-left: 30%;
+         margin-top: -10vh;
+     }
+     .ninth-two>ol{
+         margin-top: 5vh;
+     }
+     .ninth-two>h2{
+         font-weight: normal;
+     } 
+     .ninth-two>ol>li{
+         list-style: none;
+         margin-top: 2vh;
+         color: rgba(0, 0, 0, 0.644);
+
+     }
+     .ninth-three{
+        margin-left: 50%;
+        margin-top: -22vh;
+    }
+    .ninth-three>ol{
+        margin-top: 5vh;
+    }
+    .ninth-three>h2{
+        font-weight: normal;
+    } 
+    .ninth-three>ol>li{
+        list-style: none;
+        margin-top: 2vh;
+        color: rgba(0, 0, 0, 0.644);
+    }
+     .ninth-four{
+        margin-left: 80%;
+        margin-top: -22vh;
+    }
+    .ninth-four>ol{
+        margin-top: 5vh;
+    }
+    .ninth-four>h2{
+        font-weight: normal;
+    } 
+    .ninth-four>ol>li{
+        list-style: none;
+        margin-top: 2vh;
+        color: rgba(0, 0, 0, 0.644);
+    }
+      /* <!-- _________9th-sec end____________ --> */
